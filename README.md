@@ -12,6 +12,16 @@ Note that if you ever exit the container, you can return to it using:
 
     docker start -ai tensorflow-udacity
 
+Troubleshooting: 
+    
+    On MAC OS X, you may encouter an error saying "docker: Cannot connect to
+    the Docker daemon.  Is the docker daemon running on this host?"
+
+    If you have installed Docker toolbox, you can resolve this by first running
+    this command:
+
+      open -a 'Docker Quickstart Terminal.app'
+
 Accessing the Notebooks
 -----------------------
 
